@@ -1,0 +1,64 @@
+body{
+    background-color: blue;
+}
+.box{
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: black;
+    width: fit-content;
+    height: 350px;
+}
+#disp{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+form{
+    background-color: #ffffff;
+    height: 35vh;
+    width: 100%;
+    line-height: 45vh;
+    text-align: center;
+}
+input{
+    width: 130px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid blue;
+    color: blue;
+    background-color: transparent;
+    font-size: 60px;
+    text-align: center;
+
+}
+input::placeholder{
+    font-size: 20px;
+    color: blue;
+    font-size: 700;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.but{
+    height:7vh;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.but button{
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: gray;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.10s;
+}
+.but button:hover{
+    background-color: blue;
+}
